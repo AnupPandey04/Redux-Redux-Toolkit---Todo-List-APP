@@ -1,12 +1,66 @@
-# React + Vite
+# 📝 Todo List App (React + Redux Toolkit)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Todo List Application** built with **React** and **Redux Toolkit** to understand state management concepts.  
+This project helped me learn how to use Redux Toolkit for managing global state in a clean and scalable way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ➕ Add new tasks  
+- ✅ Mark tasks as done / undo  
+- ❌ Delete tasks  
+- 🗂 Organized folder structure for scalability  
+- ⚡ State management with Redux Toolkit  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/AnupPandey04/Redux-Redux-Toolkit---Todo-List-APP.git
+   cd Redux-Redux-Toolkit---Todo-List-APP
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Run the app
+   ```bash
+   npm run dev
+   ```
+4. Open in browser: http://localhost:5173
+
+---
+
+## 🖥️ Tech Stack
+- **React** – UI library  
+- **Redux Toolkit** – State management  
+- **Vite** – Development environment  
+- **JavaScript (ES6+)**
+
+---
+
+## 📚 What I Learned
+- How to set up a Redux store using `configureStore`  
+- How to create slices with `createSlice`  
+- How to dispatch actions and use reducers for state updates  
+- How to use `useSelector` and `useDispatch` in React components  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!  
+
+1. Fork the repo  
+2. Create a new branch (`feature/your-feature`)  
+3. Commit your changes  
+4. Open a pull request 🎉  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** – feel free to use and modify it.  
+
+
